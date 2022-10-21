@@ -3,4 +3,90 @@
     padding: 0;
     box-sizing: border-box;
 }
-    
+
+/* question 6 */
+.logIn__card{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(180deg, #3d26aad1, #9a46a8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.logIn__card p{
+    text-align: center;
+    color:white;
+}
+
+.logIn__card form img{
+    width: 18px;
+    margin-right: 20px;
+}
+
+.logIn__card input{
+background: unset;
+border: none;
+color: white;
+width: 80%;
+}
+
+.logIn__card form div{
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-top: 15px;
+}
+
+.logIn__card form div:last-of-type{
+    border-bottom: none;
+}
+.logIn__card form{
+padding: 0 30px;
+}
+
+.logIn__card form label{
+    color: white;
+    }
+
+::placeholder {
+    color: white;
+  }
+
+.logIn__card-ligIn-Button{
+    background: white;
+    width: fit-content;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 40px;  
+    margin: 25px auto;
+    cursor: pointer;
+} 
+
+.logIn__card-forgetPassword-Button{
+background: none;
+width: fit-content;
+border: none;
+color: white;
+margin: 40px auto;
+cursor: pointer;
+}
+
+.logIn__card .logo{
+width: 60px;
+border: 1px solid white;
+padding: 15px;
+border-radius: 50%;
+margin: 30px auto 10px auto;
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    border:none;
+    outline: none;
+}
+
+input[type="checkbox" i] {
+width: fit-content;
+}
