@@ -1,25 +1,15 @@
-// question2
-let steps = 0;
-let countSteps = {
-  increase: function () {
-    return ++steps;
-  },
-  decrease: function () {
-    return --steps;
-  },
-  reset: function () {
-    steps = 0;
-  },
-  read: function () {
-    alert(steps);
-  },
-};
+// question3
+const data = [
+  { name: "soli", age: 31 },
+  { name: "sofi", age: 15 },
+  { name: "rahi", age: 50 },
+  { name: "nasim", age: 40 },
+  { name: "elly", age: 60 },
+  { name: "sahar", age: 10 },
+  { name: "zahra", age: 80 },
+];
 
-countSteps.increase()
-countSteps.increase()
-countSteps.increase()
-countSteps.read()
-countSteps.decrease()
-countSteps.read()
-countSteps.reset()
-countSteps.read()
+const sortByAge = (data) => {
+  return data.sort((a, b) => a.age - b.age);
+};
+console.log(sortByAge(data));
