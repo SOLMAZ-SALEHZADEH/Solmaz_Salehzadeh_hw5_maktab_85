@@ -3,24 +3,4 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* question 4 */
-.green{
-    padding: 6px 12px;
-    border-radius: 6px;
-    background-color: rgb(139 210 139);
-    color: white;
-}
-
-.red{
-    padding: 6px 12px;
-    border-radius: 6px;
-    background-color: rgb(214 129 129);
-    color: white;
-}
-
-.blue{
-    padding: 6px 12px;
-    border-radius: 6px;
-    background-color: lightsteelblue;
-    color: white;
-}
+    
