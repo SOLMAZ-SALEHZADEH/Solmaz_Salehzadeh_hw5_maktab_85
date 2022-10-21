@@ -1,10 +1,25 @@
-// question1
-let user = {
-  name: "Jhone",
-  age: 30,
-  sayHello: function () {
-    return `Hello ${this.name}`;
+// question2
+let steps = 0;
+let countSteps = {
+  increase: function () {
+    return ++steps;
+  },
+  decrease: function () {
+    return --steps;
+  },
+  reset: function () {
+    steps = 0;
+  },
+  read: function () {
+    alert(steps);
   },
 };
 
-console.log(user.sayHello())
+countSteps.increase()
+countSteps.increase()
+countSteps.increase()
+countSteps.read()
+countSteps.decrease()
+countSteps.read()
+countSteps.reset()
+countSteps.read()
